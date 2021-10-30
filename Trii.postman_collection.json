@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "4d9ffd61-8fca-4667-a60d-e3a71162a8bb",
+		"name": "Trii",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/api/characters/xx?name=rick&especies=Human&gender=Female",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/characters/zip?name=rick",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"characters",
+						"zip"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "rick"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "with zip",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/characters/zip?name=rick",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"characters",
+						"zip"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "rick"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
