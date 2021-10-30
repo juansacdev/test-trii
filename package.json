@@ -1,0 +1,21 @@
+{
+  "name": "trii",
+  "version": "1.0.0",
+  "description": "Tech tes for Trii",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "NODE_ENV=production node src/index.js"
+  },
+  "keywords": [],
+  "author": "Juan Sebastián Agudelo @juansacdev <juansac.me@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
